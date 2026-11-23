@@ -1,0 +1,19 @@
+{
+  "name": "tugas-4-manajemen-produk-api",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "REST API ExpressJS dengan database SQLite bawaan Node.js untuk aplikasi manajemen produk Tugas 4",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "dotenv": "^16.6.1"
+  }
+}
